@@ -1,23 +1,24 @@
-ul {
-    list-style-type: none;
-    margin: 0;padding: 0;
+.bg{
+    background-image: url('https://images.pexels.com/photos/459654/pexels-photo-459654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    /* Full height */
+  height: 100%; 
 
-    li {
-        background: rgb(238, 238, 238);
-        padding: 2em;
-        border-radius: 4px;
-        margin-bottom: 7px;
-        display: grid;
-        grid-template-columns: 60px auto;
-
-        p {
-            font-weight: bold;
-            margin-left: 20px;
-        }
-
-        img {
-            border-radius: 50%;
-            width: 100%;
-        }
-    }
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-section{
+  text-align: center;
+}
+.bg-section h2{
+    padding: 200px 0px 50px 0px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.bg-section button{
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 150px; 
 }
